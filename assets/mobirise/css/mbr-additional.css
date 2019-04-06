@@ -1866,16 +1866,17 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: #7f1933;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #7f1933, #000000) !important;
 }
 .cid-rmSifRhlML .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
 .cid-rmSifRhlML .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.8 !important;
 }
 .cid-rmSifRhlML .mbr-gallery-title {
   font-size: .9em;
@@ -1895,10 +1896,11 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #ffffff !important;
-  opacity: 0.7;
+  background: #7f1933 !important;
+  opacity: 0.8;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #7f1933, #000000) !important;
 }
 .cid-rmSifRhlML .mbr-gallery-item > div > span {
   text-align: left;
